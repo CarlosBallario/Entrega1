@@ -3,7 +3,7 @@ ________________________________________________________________________________
 Este código corresponde a la Primera Entrega del curso de Backend I de CoderHouse, de acuerdo a los requerimientos solicitados en la consigna.
 _____________________________________________________________________________________________________
 
-####Información del Proyecto:
+#### Información del Proyecto:
 _____________________________________________________________________________________________________
 ##### Autor:
 Carlos Ballario
@@ -36,11 +36,26 @@ Se coloca la URL: http://localhost:8080/Compus y se colocan todos los parámetos
 - **Actualizar un producto por su Id:**
 Se coloca la URL: http://localhost:8080/id/Compus/id y se modifica algunos/todos los parámetos del producto ("title, description, price,code, category, stock, cargados en el archivo product.json)en el body del POSTMAN. Ejemplo: http://localhost:8080/Compus/2.
 ###### DELETE:
+- **Eliminar un producto por su Id:**
 Se coloca la URL: http://localhost:8080/Compus/Id y elimina el producto con ese Id guardado en el archivo product.json. Ejemplo: http://localhost:8080/Compus/5.
 
 
-
-
+##### Carts
+###### POST:
+- **Agregar un carrito nuevo:**
+Se coloca la URL: http://localhost:8080/carrito y se coloca en el body de POSTMAN todos los parametros tal cual se consiguraron en el archivo carts.json, y crea un nuevo carrito con esta misma estrucutura en el archivo carts.json.
+###### GET:
+- **Obtener el contenido de un carrito por su Id:**
+Se coloca la URL: http://localhost:8080/carrito/cid y muestra el contenido del carrito identificado con ese Id en el archivo carts.json. Ejemplo: http://localhost:8080/carrito/3.
+###### POST:
+- **Agregar un producto a un carrito por su Id:**
+Se coloca la URL: http://localhost:8080/carrito/cid y se coloca en el body de POSTMAN el paramétro {"quantity: ..."} con la cantidad a modificar. Se guarda el cambio en el archivo carts.json. Ejemplo: http://localhost:8080/carrito/3.
+###### DELETE:
+- **Eliminar un producto del carrito por su Id:**
+Se coloca la URL: http://localhost:8080/cid/carrito/cid y elimina el producto con ese Id almacenado en el archivo carrito.json. Ejemplo: http://localhost:8080/2/carrito/3.
+###### DELETE:
+- **Eliminar un carrito por su Id:**
+Se coloca la URL: http://localhost:8080/carrito/cid y elimina el carrito con ese Id almacenado en el archivo carrito.json. Ejemplo: http://localhost:8080/carrito/2.
 
 
 
