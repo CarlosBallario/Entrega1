@@ -50,13 +50,13 @@
     "category": "Gamer / Diseño"
   },
   {
-    "id": 6,
-    "title": "ACER",
+    "id": 7,
+    "title": "Compact",
     "description": "Computador portátil",
-    "code": "COD06",
-    "price": 200,
+    "code": "COD01",
+    "price": 900,
     "status": true,
-    "stock": 80,
-    "category": "Hogar"
+    "stock": 150,
+    "category": "Pymes"
   }
 ]

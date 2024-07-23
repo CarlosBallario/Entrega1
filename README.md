@@ -57,10 +57,21 @@ Se coloca la URL: http://localhost:8080/cid/carrito/cid y elimina el producto co
 - **Eliminar un carrito por su Id:**
 Se coloca la URL: http://localhost:8080/carrito/cid y elimina el carrito con ese Id almacenado en el archivo carrito.json. Ejemplo: http://localhost:8080/carrito/2.
 
+#### POSTMAN
+_________________________________________________________________________________________________________________________
+
+##### Products
+- **Obtener todos los productos:**
+<image src= "/Image/Compus-GET.jpg" alt= "">
+
+- **Obtener los productos por su Id:**
+<image src= "/Image/Compus-GET-2.jpg" alt= "">
+
+- **Agregar un nuevo producto:**
+<image src= "/Image/Compus-POST.jpg" alt= "">
+
+- **Actualizar un producto por su Id:**
 
 
-
-
-
-<image src= "/Image/Get-Compus.jpg" alt= "">
-
+- **Eliminar un producto por su Id:**
+<image src= "Image/Compus-DELETE.jpg" alt= "">
