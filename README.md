@@ -49,7 +49,7 @@ Se coloca la URL: http://localhost:8080/carrito y se coloca en el body de POSTMA
 Se coloca la URL: http://localhost:8080/carrito/cid y muestra el contenido del carrito identificado con ese Id en el archivo carts.json. Ejemplo: http://localhost:8080/carrito/3.
 ###### POST:
 - **Agregar un producto a un carrito por su Id:**
-Se coloca la URL: http://localhost:8080/carrito/cid y se coloca en el body de POSTMAN el paramétro {"quantity: ..."} con la cantidad a modificar. Se guarda el cambio en el archivo carts.json. Ejemplo: http://localhost:8080/carrito/3.
+Se coloca la URL: http://localhost:8080/carrito/cid y no se coloca nada en el body de POSTMAN.Crea un producto nuevo con una "quantity" :1. Se guarda el cambio en el archivo carts.json. Ejemplo: http://localhost:8080/4/carrito/7.
 ###### PUT:
 - **Actualizar la cantidad un producto en un carrito por su Id:**
 Se coloca la URL: http://localhost:8080/cid/carrito/id y actualiza la cantidad de un producto en un carrito identificado por su Id. Ejemplo: http://localhost:8080/5/carrito/1
