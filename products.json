@@ -50,7 +50,7 @@
     "category": "Gamer / Diseño"
   },
   {
-    "id": 7,
+    "id": 6,
     "title": "Compact",
     "description": "Computador portátil",
     "code": "COD01",
@@ -58,5 +58,15 @@
     "status": true,
     "stock": 150,
     "category": "Pymes"
+  },
+  {
+    "id": 7,
+    "title": "Bangho",
+    "description": "Computador portátil",
+    "code": "COD06",
+    "price": 900,
+    "status": true,
+    "stock": 67,
+    "category": "Pymes/Hogar"
   }
 ]

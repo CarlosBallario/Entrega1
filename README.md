@@ -50,12 +50,15 @@ Se coloca la URL: http://localhost:8080/carrito/cid y muestra el contenido del c
 ###### POST:
 - **Agregar un producto a un carrito por su Id:**
 Se coloca la URL: http://localhost:8080/carrito/cid y se coloca en el body de POSTMAN el paramétro {"quantity: ..."} con la cantidad a modificar. Se guarda el cambio en el archivo carts.json. Ejemplo: http://localhost:8080/carrito/3.
+###### PUT:
+- **Actualizar la cantidad un producto en un carrito por su Id:**
+Se coloca la URL: http://localhost:8080/cid/carrito/id y actualiza la cantidad de un producto en un carrito identificado por su Id. Ejemplo: http://localhost:8080/5/carrito/1
 ###### DELETE:
 - **Eliminar un producto del carrito por su Id:**
-Se coloca la URL: http://localhost:8080/cid/carrito/cid y elimina el producto con ese Id almacenado en el archivo carrito.json. Ejemplo: http://localhost:8080/2/carrito/3.
+Se coloca la URL: http://localhost:8080/cid/carrito/id y elimina el producto con ese Id almacenado en el archivo carrito.json. Ejemplo: http://localhost:8080/2/carrito/3.
 ###### DELETE:
 - **Eliminar un carrito por su Id:**
-Se coloca la URL: http://localhost:8080/carrito/cid y elimina el carrito con ese Id almacenado en el archivo carrito.json. Ejemplo: http://localhost:8080/carrito/2.
+Se coloca la URL: http://localhost:8080/carrito/cid y elimina el carrito con ese Id almacenado en el archivo carrito.json. Ejemplo: http://localhost:8080/5/carrito/1.
 
 #### POSTMAN
 _________________________________________________________________________________________________________________________
@@ -71,7 +74,34 @@ ________________________________________________________________________________
 <image src= "/Image/Compus-POST.jpg" alt= "">
 
 - **Actualizar un producto por su Id:**
-
+<image src= "/Image/Compus-PUT.jpg" alt= "">
 
 - **Eliminar un producto por su Id:**
 <image src= "Image/Compus-DELETE.jpg" alt= "">
+
+_______________________________________________________________________________________________________________________________
+##### Carts
+- **Agregar un carrito nuevo:**
+<image src= "Image/carrito-POST.jpg" alt= "">
+
+- **Obtener el contenido de un carrito por su Id:**
+<image src= "Image/carrito-GET.jpg" alt= "">
+
+- **Agregar un producto a un carrito por su Id:**
+<image src= "Image/carrito-POST-2.jpg" alt= "">
+
+- **Actualizar la cantidad un producto en un carrito por su Id:**
+<image src= "Image/carrito-PUT.jpg" alt= "">
+
+- **Eliminar un producto del carrito por su Id:**
+<image src= "Image/carrito-DELETE.jpg" alt= "">
+
+- **Eliminar un carrito por su Id:**
+<image src= "Image/carrito-DELETE-2.jpg" alt= "">
+
+
+_______________________________________________________________________________________________________________________________
+
+#### NOTAS
+Cuando subí el proyecto a Github, revisé que todo estuviera bien, sin embargo se copió la carpeta node_modules estando configurado correctamente el archivo .gitignore. 
+Como no encuentro como elimirlo desde Github, en la otra entrega voy a crear un repositorio nuevo.
