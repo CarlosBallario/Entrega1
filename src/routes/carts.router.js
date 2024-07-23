@@ -33,7 +33,7 @@ router.get('/carrito/:cid', (req, res) => {
     fs.readFile('carts.json', "utf8", (error, data) => {
         if (error) {
             console.error(error);
-            return res.status(500).json({ Error: "Error interno del Servidor" });
+            return res.status(500).json({ Error: "Error 1 interno del Servidor" });
         }
         const carts = JSON.parse(data);
         const cart = carts.find(cart => cart.id === parseInt(id));
